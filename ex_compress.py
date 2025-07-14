@@ -1,29 +1,5 @@
 # compressing: aabbbcdddd becomes a2b3c1d4
 
-
-'''def compress_string(s):
-    result = ""
-    step = 1
-
-    for l in range(0, len(s), step):
-        nbr = s.count(s[l])
-        res = s[l] + str(nbr)
-        
-        step = nbr
-        result += res
-    return result
-
-
-# main program
-val = str(input("give a set of caracters: "))
-
-final = compress_string(val)
-
-print(val, " becomes ",final)'''
-
-
-# corrected version
-
 def compress_string(s):
     result = ""
     i = 0
